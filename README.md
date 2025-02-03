@@ -7,30 +7,54 @@ A simple Flask-based web application to split PDFs into individual pages. Upload
 - Download each page as an individual PDF file
 - Web-based interface built using Flask
 
+## 📷 Demo Screenshot (Optional)
+![Screenshot](link-to-your-screenshot)
 
 ## 🔧 Installation
 
+1. **Create a new Markdown (.md) file:**
+   - Open a text editor (Notepad, VS Code, Sublime Text, etc.).
+   - Save the file as `README.md`.
+
+2. **Copy and paste the following content into the `README.md` file:**
+   ```md
+   # PDF Splitter Web App
+
+   A simple Flask-based web application to split PDFs into individual pages. Upload a PDF, and the app will generate separate files for each page, allowing you to download them individually.
+
+   ## 🚀 Features
+   - Upload a PDF file and split it into separate pages
+   - Download each page as an individual PDF file
+   - Web-based interface built using Flask
+
+   ## 📷 Demo Screenshot (Optional)
+   ![Screenshot](link-to-your-screenshot)
+
+   ## 🔧 Installation
+   
    1. **Clone the repository:**
       ```sh
-      git clone https://github.com/mashhood-nk/pdf-splitter.git
+      git clone https://github.com/your-username/pdf-splitter.git
       cd pdf-splitter
       ```
+   
    2. **Create a virtual environment (optional but recommended):**
       ```sh
       python -m venv venv
       source venv/bin/activate  # On Windows use: venv\Scripts\activate
       ```
+   
    3. **Install dependencies:**
       ```sh
       pip install -r requirements.txt
       ```
    
-   5. **Run the application:**
+   4. **Run the application:**
       ```sh
       python app.py
       ```
    
-   6. **Open in your browser:**
+   5. **Open in your browser:**
       ```
       http://127.0.0.1:5000
       ```
